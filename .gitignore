@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Dependencies and generated files
+vendor/
+node_modules/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Local tools and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local project documentation folder requested for this workspace
+/freeznut-main/docs/
+.claude
