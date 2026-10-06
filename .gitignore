@@ -1,4 +1,4 @@
-# Secrets and local environment
+# Secrets et environnement local
 .env
 .env.*
 !.env.example
@@ -9,7 +9,7 @@
 secrets.*
 credentials.*
 
-# Dependencies and generated files
+# Dépendances et fichiers générés
 vendor/
 node_modules/
 *.log
@@ -18,13 +18,13 @@ node_modules/
 *.swp
 *.swo
 
-# Local tools and operating-system files
+# Fichiers d'outils locaux et du système d'exploitation
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Local project documentation folder requested for this workspace
+# Dossier de documentation du projet local demandé pour cet espace de travail
 /docs/
 .claude

@@ -18,6 +18,7 @@ h1 {
     display: flex;
     font-size: 2rem;
     background: linear-gradient(to right, #054d25, #56f096);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
