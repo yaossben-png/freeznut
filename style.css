@@ -18,13 +18,12 @@ h1 {
     display: flex;
     font-size: 2rem;
     background: linear-gradient(to right, #054d25, #56f096);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #b200c2;
     margin-bottom: 1rem;
 }
@@ -40,7 +39,6 @@ span  {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #807f7f;
     width:fit-content;
     height: fit-content;
     padding: 2px;
@@ -64,6 +62,7 @@ span  {
     cursor: pointer;
     height: 40px;
     padding: 0 10px;
+    gap:10px;
 
 }
 .button img {
