@@ -53,6 +53,7 @@ span  {
 }
 .frigo1 img :hover , .frigo2 img :hover , .frigo3 img :hover {
     transform: scale(1.1);
+    
 }
 .button{
     margin-top: 100px;
