@@ -69,3 +69,17 @@ span  {
     width: 20px;
     height: 20px;
 }
+.ensavoir{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.suite{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
