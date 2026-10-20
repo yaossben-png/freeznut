@@ -47,13 +47,12 @@ span  {
 }
 .frigo1 img , .frigo2 img , .frigo3 img {
     width: 100px;
-    height: 100px;
+    height: 150px;
     object-fit: cover;
 
 }
 .frigo1 img :hover , .frigo2 img :hover , .frigo3 img :hover {
-    transform: scale(1.1);
-    
+    Transform: scale(1.1);
 }
 .button{
     margin-top: 100px;
