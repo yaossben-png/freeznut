@@ -18,6 +18,7 @@ h1 {
     display: flex;
     font-size: 2rem;
     background: linear-gradient(to right, #054d25, #56f096);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
@@ -45,14 +46,21 @@ span  {
     gap: 10px;
     
 }
+/* la transition est sur l'image et pas sur le :hover,
+   comme ça elle joue dans les deux sens (zoom et retour normal) */
 .frigo1 img , .frigo2 img , .frigo3 img {
     width: 100px;
     height: 150px;
     object-fit: cover;
+    transition: transform 0.3s ease;
 
 }
-.frigo1 img :hover , .frigo2 img :hover , .frigo3 img :hover {
-    Transform: scale(1.1);
+/* avant c'était écrit "img :hover" avec un espace
+   l'espace fait chercher un enfant DANS l'image, or une image n'a pas d'enfant,
+   donc le navigateur trouvait rien et le zoom marchait pas
+   "img:hover" collé = c'est l'image elle-même qu'on vise */
+.frigo1 img:hover , .frigo2 img:hover , .frigo3 img:hover {
+    transform: scale(1.1);
 }
 .button{
     margin-top: 100px;
@@ -85,6 +93,11 @@ span  {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+/* c'est index.js qui ajoute la classe "visible" au bloc quand on clique
+   ici on dit juste au css : dès que la classe est là, on affiche */
+.suite.visible {
+    display: flex;
 }
 .ensavoir span{
     color: #000000;
