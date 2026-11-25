@@ -110,8 +110,5 @@ a {
     height: 40px;
     padding: 0 10px;
     gap:10px;
-}
-.ensavoir button img {
-    width: 20px;
-    height: 20px;
+    color: #00ff62;
 }
